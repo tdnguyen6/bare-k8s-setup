@@ -1,0 +1,10 @@
+serviceAccount:
+  name: tidu-dashboard-sa
+
+service:
+  type: LoadBalancer
+  externalPort: 443
+  loadBalancerIP: 10.0.1.2
+
+# metrics-server:
+#   enabled: true
